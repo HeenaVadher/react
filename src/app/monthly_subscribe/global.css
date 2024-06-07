@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .div-main-sub{
+        @apply md:mx-auto mx-4 md:w-1/2 items-center justify-center grid my-6 py-4 mb-20
+    }
+    .h1-head-sub{
+        @apply font-poppins font-bold lg:text-4xl text-2xl text-center text-darkBlue leading-[60px]
+    }
+    .div-btns-sub{
+        @apply lg:mx-16 justify-center grid grid-cols-2 items-center bg-white rounded-full shadow-lg shadow-[#C5BFD6]/50 my-6
+    }
+    .btn-pack-disc {
+      @apply font-poppins justify-center flex flex-col lg:mx-16 mx-4 lg:text-lg text-sm font-light tracking-tight text-darkBlue space-y-8 py-12
+    }
+  
+    .btn-price-icon {
+      @apply text-fireRed md:size-5 size-4
+    }
+  
+    .btn-pack-red {
+      @apply font-Mulish lg:text-[30px] text-xl font-extrabold text-center leading-[35px] py-4 rounded-full bg-fireRed text-white
+    }
+    .btn-pack-black {
+        @apply font-Mulish lg:text-[30px] text-xl font-extrabold text-center leading-[35px] py-4 rounded-full bg-white text-darkBlue
+      }
+  
+    .div-pack {
+      @apply shadow-md border-[1px] border-[#FCECF1] lg:mx-14 mx-1 rounded-lg
+    }
+  
+    .div-price-pack {
+      @apply grid grid-cols-2 rounded-b-lg border-[1px] border-[#ECECF1]
+    }
+  
+    .btn-price-pack-red {
+      @apply flex flex-col items-center justify-center rounded-bl-lg font-extrabold bg-fireRed text-white lg:text-2xl text-lg lg:leading-10 md:py-4 py-2
+    }
+    .btn-price-pack-white {
+        @apply flex flex-col items-center justify-center rounded-bl-lg font-extrabold bg-white text-fireRed lg:text-2xl text-lg lg:leading-10 md:py-4 py-2
+      }
+      .btn-purchase{
+        @apply bg-fireRed mt-14 text-white font-Mulish lg:text-[30px] text-xl font-extrabold text-center leading-[35px] py-3 lg:mx-32 mx-2 shadow-lg rounded-full
+      }
+      .link-why{
+        @apply font-poppins mt-4 text-darkBlue italic font-medium lg:text-base text-sm text-center
+      }
+      .span-price{
+        @apply font-poppins text-darkBlue lg:text-3xl text-lg
+      }
+  .span-billed{
+    @apply font-extrabold font-Mulish lg:text-sm text-xs text-[#505050]
+  }
+  
+  }

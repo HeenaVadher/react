@@ -1,0 +1,3 @@
+.input-pass {
+    @apply bg-transparent  w-full text-sm placeholder:text-xs placeholder:text-charcoalGray rounded-full md:h-16 h-12 px-6 border border-MediumGray hover:border-fireRed focus:outline-none focus:border-fireRed
+}

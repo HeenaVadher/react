@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.sub-div {
+    @apply bg-[#2D2D2D] 2xl:h-screen h-screen w-full flex flex-col items-center xl:px-32 md:px-12 px-8 md:pt-28 pt-8 pb-4
+}
+
+.heading {
+    @apply font-Outfit font-black text-center lg:text-[80px] md:text-6xl text-5xl text-white mt-8
+}
+
+.disc-p {
+    @apply font-Outfit text-[#D7D7D7] font-extralight text-center xl:text-3xl lg:text-2xl md:text-xl text-base mt-8
+}
+
+.head-h4 {
+    @apply font-Outfit text-center text-white font-semibold md:text-[40px] text-3xl md:mt-8 
+}
+
+.logo-div1 {
+    @apply bg-[#4FC1E5]/20 h-10 w-10 rounded-full flex justify-center items-center
+}
+
+.tweet {
+    @apply text-[#4FC1E5] lg:size-4 size-3
+}
+
+.logo-div2 {
+    @apply bg-[#EE236C]/20 h-10 w-10 rounded-full flex justify-center items-center
+}
+
+.insta {
+    @apply text-[#EE236C] lg:size-4 size-3
+}
+
+.join-btn {
+    @apply text-[#D7D7D7] text-center font-bold md:text-[24px] text-xl lg:py-4 xl:px-32 md:px-20 py-4 px-10 bg-[#900303] rounded-full mt-8
+}
+
+.popup-div {
+    @apply fixed  inset-0 h-auto w-full flex items-center justify-center bg-[#2D2D2D] rounded-2xl bg-opacity-90
+}
+
+.popup-div2 {
+    @apply md:p-2 p-1 border lg:w-4/6 sm:w-5/6 w-[94%] h-auto shadow-lg rounded-md bg-white opacity-90
+}
+
+
+.popup-close-div {
+    @apply flex justify-end text-center w-auto my-0 lg:h-8 h-5 mx-auto
+}
+
+.popup-close-btn {
+    @apply text-[#130F26] md:text-5xl text-3xl text-center font-bold
+}
+
+.popup-div3 {
+    @apply xl:py-4 xl:px-24 sm:px-8 md:mx-6 px-2 gap-3 flex flex-col items-center justify-center
+}
+
+.popup-p {
+    @apply text-[#1E1D1D] font-semibold font-OpenSans lg:text-2xl md:text-xl text-sm text-center xl:pb-6 md:pb-2
+}
+
+.popup-input-mail {
+    @apply xl:mt-6 mt-2 py-2 px-4 md:h-14 h-10 md:w-full w-[80%] rounded-full border-[#000000] border focus:outline-none placeholder:text-[#868484] placeholder:font-bold placeholder:text-base
+}
+
+.popup-check-div {
+    @apply flex justify-center w-[90%] mx-10 md:mx-2
+}
+
+.popup-check {
+    @apply mx-2 size-4 mt-1
+}
+
+.popup-check-lable {
+    @apply w-full leading-4 font-Outfit text-[#818181] font-extralight lg:text-base md:text-sm text-xs
+}
+
+.popup-btn {
+    @apply font-OpenSans text-[#D7D7D7] bg-[#900303] font-bold md:text-xl text-lg md:w-full w-[80%] lg:py-4 py-2 rounded-full xl:my-6 my-2
+}
+
+.custom-button-class {
+    @apply bg-fuchsia-300 border-none;
+}
